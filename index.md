@@ -5,6 +5,6 @@ Welcome to my portfolio site
 
 ## Public contact Information
 A photo with me and a giant Welly. Don't climb on it! 
-![A photo with me and a giant Welly. Don't climb on it! ](img/Welly.jpg)
+<img src="/img/Welly.jpg" alt="A photo with me and a giant Welly. Don't climb on it! " width = 200>
 
 Email: anho8439@colorado.edu
