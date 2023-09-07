@@ -1,3 +1,3 @@
 # Andrew's personal portfolio
-## Second Header
-Here is my index file.
+## Public contact Information
+Email: anho8439@colorado.edu
