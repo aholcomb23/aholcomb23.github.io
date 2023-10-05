@@ -9843,46 +9843,8 @@ Data variables:
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">CalledProcessError</span>                        Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">/workspaces/aholcomb23.github.io/notebooks/chimney_tops_2.ipynb Cell 14</span> line <span class="ansi-cyan-fg">1
-</span><span class="ansi-green-fg">----&gt; &lt;a href='vscode-notebook-cell://codespaces%2Bfluffy-fortnight-pjr9699pqr6gc949p/workspaces/aholcomb23.github.io/notebooks/chimney_tops_2.ipynb#X16sdnNjb2RlLXJlbW90ZQ%3D%3D?line=0'&gt;1&lt;/a&gt;</span> get_ipython().run_cell_magic('bash', '', 'jupyter nbconvert chimney_tos_2.ipynb --to html --no-input\n')
-
-File <span class="ansi-green-fg">/opt/conda/lib/python3.10/site-packages/IPython/core/interactiveshell.py:2493</span>, in <span class="ansi-cyan-fg">InteractiveShell.run_cell_magic</span><span class="ansi-blue-fg">(self, magic_name, line, cell)</span>
-<span class="ansi-green-intense-fg ansi-bold">   2491</span> with self.builtin_trap:
-<span class="ansi-green-intense-fg ansi-bold">   2492</span>     args = (magic_arg_s, cell)
-<span class="ansi-green-fg">-&gt; 2493</span>     result = fn(*args, **kwargs)
-<span class="ansi-green-intense-fg ansi-bold">   2495</span> # The code below prevents the output from being displayed
-<span class="ansi-green-intense-fg ansi-bold">   2496</span> # when using magics with decorator @output_can_be_silenced
-<span class="ansi-green-intense-fg ansi-bold">   2497</span> # when the last Python token in the expression is a ';'.
-<span class="ansi-green-intense-fg ansi-bold">   2498</span> if getattr(fn, magic.MAGIC_OUTPUT_CAN_BE_SILENCED, False):
-
-File <span class="ansi-green-fg">/opt/conda/lib/python3.10/site-packages/IPython/core/magics/script.py:154</span>, in <span class="ansi-cyan-fg">ScriptMagics._make_script_magic.&lt;locals&gt;.named_script_magic</span><span class="ansi-blue-fg">(line, cell)</span>
-<span class="ansi-green-intense-fg ansi-bold">    152</span> else:
-<span class="ansi-green-intense-fg ansi-bold">    153</span>     line = script
-<span class="ansi-green-fg">--&gt; 154</span> return self.shebang(line, cell)
-
-File <span class="ansi-green-fg">/opt/conda/lib/python3.10/site-packages/IPython/core/magics/script.py:314</span>, in <span class="ansi-cyan-fg">ScriptMagics.shebang</span><span class="ansi-blue-fg">(self, line, cell)</span>
-<span class="ansi-green-intense-fg ansi-bold">    309</span> if args.raise_error and p.returncode != 0:
-<span class="ansi-green-intense-fg ansi-bold">    310</span>     # If we get here and p.returncode is still None, we must have
-<span class="ansi-green-intense-fg ansi-bold">    311</span>     # killed it but not yet seen its return code. We don't wait for it,
-<span class="ansi-green-intense-fg ansi-bold">    312</span>     # in case it's stuck in uninterruptible sleep. -9 = SIGKILL
-<span class="ansi-green-intense-fg ansi-bold">    313</span>     rc = p.returncode or -9
-<span class="ansi-green-fg">--&gt; 314</span>     raise CalledProcessError(rc, cell)
-
-<span class="ansi-red-fg">CalledProcessError</span>: Command 'b'jupyter nbconvert chimney_tos_2.ipynb --to html --no-input\n'' returned non-zero exit status 255.</pre>
-</div>
-</div>
-</div>
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
 </div>
 </main>
 </body>
